@@ -88,7 +88,7 @@ function draw() {
     redB.destroyEach();
     score = score + 5;
    }
- if(frameCount>700){
+ //if(frameCount>700){
     gameState=END;
    }
   if (gameState === END) {
@@ -109,7 +109,7 @@ by the arrows */
 
   if (arrowGroup.isTouching(blueB)) {
    blueB.destroyEach();
-//   arrowGroup.destroyEach();
+   arrowGroup.destroyEach();
    score=score+2;
  }
 
