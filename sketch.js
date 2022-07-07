@@ -80,15 +80,14 @@ function draw() {
     }
   }
 
-  /*Uncomment correct statement so that 
+   /*Uncomment correct statement so that 
   game goes to "END" state 
   when red balloon is hit*/
   if (arrowGroup.isTouching(redB))
+  //if(frameCount>700){
   {
     redB.destroyEach();
-    score = score + 5;
-   }
- //if(frameCount>700){
+ 
     gameState=END;
    }
   if (gameState === END) {
