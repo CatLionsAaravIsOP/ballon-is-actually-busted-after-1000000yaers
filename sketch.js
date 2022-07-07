@@ -130,7 +130,7 @@ if (arrowGroup.isTouching(pinkB)) {
   arrowGroup.destroyEach();
   score=score+1;
 }
- }
+ 
   
   drawSprites();
   text("Score: "+ score, 300,50);
